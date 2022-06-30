@@ -1,0 +1,436 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+hr{
+	padding:2px;
+	background-color:#512f4e;
+	margin-top:1em;
+	margin-bottom:0.7em;
+	border-width:2px;
+	border-color:white;
+}
+
+p{
+	margin:1.2em 1.3em;
+}
+
+/* Realised by- Bar */
+.creator{
+	background-color:#512f4e;
+	font: bold 14px tahoma, arial, serif;
+	color: #d0aece;
+	position:absolute;
+	top:91%;
+	align-content:center;
+	width:100%;
+}
+
+/* Realised by- Bar */
+
+.fundal{
+ 	background-color: #d0aece;
+ 	text-align:center;	
+ }
+
+ .fundalHeader{
+ 	background-color: #824a7d;
+ 	text-align:center;
+ }
+
+/* Header-ul cel mare din tab-ul Home */
+
+.introdHead{
+	text-align: center;
+ 	color: #d0aece;
+ 	font: bold 55px verdana,arial,sans-serif;
+ 	line-height:1.2em;
+}
+
+/* Header-ul cel mare din tab-ul Home */
+
+/* Header-ul cel mic din tab-ul Home */
+
+.uhead{
+ 	text-align: center;
+ 	color: #d0aece;
+ 	font: bold 30px tahoma,arial,sans-serif;
+ 	line-height:1em;
+ }
+
+/* Header-ul cel mic din tab-ul Home */
+
+/* Clase pentru liste */
+
+.ulTab{
+ 	text-align:left;
+ 	font: bold 20px tahoma,arial,sans-serif;
+ 	color:#a25d9c;
+ 	position: absolute;
+ }
+
+ .ulTab li{
+ 	align-self:left;
+ 	line-height:1.5em;
+	position: relative;
+ 	left:35.5%;
+ 	right:64.5%;
+ }
+
+ .ulTab a{
+	text-align: center;
+ 	line-height:1em;
+ 	color:#a25d9c;
+ 	font-weight:bold;
+ 	text-decoration: none;
+ }
+
+ .ulTab a:visited{
+ 	color:#a25d9c;
+ }
+
+ .ulTab a:hover{
+ 	color:#824a7d;
+ 	transition:0.2s;
+ }
+
+/* Clase pentru liste */
+
+
+/* Header-ele in general */
+
+.head{
+ 	text-align: center;
+ 	color: #d0aece;
+ 	font: bold 35px verdana,arial,sans-serif;
+ }
+
+ /* Header-ele in general */
+
+.text{
+ 	font: italic 20px timesnewroman,arial,serif;
+ 	margin-right: 4em;
+ 	margin-left: 4em;
+ 	color:#512f4e;
+ }
+
+.textL{
+ 	font: italic 20px timesnewroman,arial,serif;
+ 	color:#512f4e;
+ 	margin-left: 2.9em;
+ }
+
+/* Butoanele din tab-ul Home */
+
+.butonSimplu{
+	padding-left: 7px;
+ 	padding-top:4px;
+ 	padding-bottom:4px;
+ 	padding-right:7px;
+ 	border-radius: 50px;
+}
+
+.butonSimplu a{
+ 	text-decoration: none;
+ 	color:#a25d9c;
+ 	font-family:tahoma,arial,sans-serif;
+ 	font-size:20px;
+ 	font-weight:bold;
+ }
+
+.butonSimplu a:visited{
+ 	color:#a25d9c;
+ }
+
+.butonSimplu a:hover{
+ 	color:#824a7d;
+ 	transition:0.3s;
+ }
+
+/* Butoanele din tab-ul Home */
+
+ /* Piesele din tab-ul History */
+
+.botKing{
+	background: transparent;
+	position: absolute;
+	top:67%;
+	left:25%;
+}
+
+.topKing:hover{
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.topKing {
+  position: absolute;
+  top: 67%;
+  left: 25%;
+  z-index: 1;
+ }
+
+.botQueen{
+	background: transparent;
+	position: absolute;
+	top:67%;
+	left:33%; 
+}
+
+.topQueen:hover{
+	opacity: 0;
+	transition:0.5s;
+}
+
+.topQueen {
+  position: absolute;
+  top: 67%;
+  left: 33%;
+  z-index: 1;
+ }
+
+.botRook{
+	background: transparent;
+	position: absolute;
+	top:67%;
+	left:41%; 
+}
+
+.topRook:hover{
+	opacity: 0;
+	transition:0.5s;
+}
+
+.topRook {
+  position: absolute;
+  top: 67%;
+  left: 41%;
+  z-index: 1;
+ }
+
+.botBishop{
+	background: transparent;
+	position: absolute;
+	top:67%;
+	left:50%;
+}
+
+.topBishop:hover{
+	opacity: 0;
+	transition:0.5s;
+}
+
+.topBishop {
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  z-index: 1;
+ }
+
+.botKnight{
+	background: transparent;
+	position: absolute;
+	top:67%;
+	left:58%;
+}
+
+.topKnight:hover{
+	opacity: 0;
+	transition:0.5s;
+}
+
+.topKnight {
+  position: absolute;
+  top: 67%;
+  left: 58%;
+  z-index: 1;
+ }
+
+.botPawn{
+	background: transparent;
+	position: absolute;
+	top:67%;
+	left:66%;
+}
+
+.topPawn:hover{
+	opacity: 0;
+	transition:0.5s;
+}
+
+.topPawn {
+  position: absolute;
+  top: 67%;
+  left: 66%;
+  z-index: 1;
+ }
+
+/* Piesele din tab-ul History */
+
+/* Butonul de Go back */
+
+.butonInapoi{
+	padding-left: 7px;
+ 	padding-top:5px;
+ 	padding-bottom:5px;
+ 	padding-right:7px;
+ 	border-radius: 35px;
+ 	position:absolute;
+ 	top:92%;
+ 	right:47%;
+ 	align-self: center;
+}
+
+.butonInapoi a{
+ 	text-decoration: none;
+ 	color:#a25d9c;
+ 	font-family:tahoma,arial,sans-serif;
+ 	font-size:17.5px;
+ 	font-weight:bold;
+}	
+
+.butonInapoi a:visited{
+ 	color:#a25d9c;
+ }
+
+.butonInapoi a:hover{
+ 	color:#824a7d;
+ 	transition:0.2s;
+ }
+
+ /* Butonul de Go Back */
+
+ /* Butonul de Next */
+
+ .butonNext{
+	padding-left: 7px;
+ 	padding-top:5px;
+ 	padding-bottom:5px;
+ 	padding-right:7px;
+ 	border-radius: 35px;
+ 	position:absolute;
+ 	top:92%;
+ 	right:37%;
+ 	align-self: center;
+}
+
+.butonNext a{
+	text-decoration: none;
+ 	color:#a25d9c;
+ 	font-family:tahoma,arial,sans-serif;
+ 	font-size:17.5px;
+ 	font-weight:bold;
+}
+
+
+.butonNext a:visited{
+ 	color:#a25d9c;
+ }
+
+.butonNext a:hover{
+	color:#824a7d;
+ 	transition:0.2s;
+ }
+
+/* Butonul de Next */
+
+/* Butonul de Previous */
+
+ .butonPrevious{
+	padding-left: 7px;
+ 	padding-top:5px;
+ 	padding-bottom:5px;
+ 	padding-right:7px;
+ 	border-radius: 35px;
+ 	position:absolute;
+ 	top:92%;
+ 	right:56%;
+ 	align-self: center;
+}
+
+.butonPrevious a{
+	text-decoration: none;
+ 	color:#a25d9c;
+ 	font-family:tahoma,arial,sans-serif;
+ 	font-size:17.5px;
+ 	font-weight:bold;
+}
+
+.butonPrevious a:visited{
+ 	color:#a25d9c;
+ }
+
+ .butonPrevious a:hover{
+	color:#824a7d;
+ 	transition:0.2s;
+}
+
+/* Butonul de Previous */
+
+/* Tot ce tine de tab-ul Feedback */
+
+.butonFeed{
+	padding-left: 7px;
+ 	padding-top:5px;
+ 	padding-bottom:5px;
+ 	padding-right:7px;
+ 	border-radius: 35px;
+ 	position:absolute;
+ 	top:70%;
+ 	right:47%;
+ 	align-self: center;
+}
+
+.feedback textarea{
+    height: 234px;
+    width: 487px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top:30%;
+}
+
+.textFeed{
+	text-decoration: none;
+ 	color:#a25d9c;
+ 	font-family:tahoma,arial,sans-serif;
+ 	font-size:17.5px;
+ 	font-weight:bold;
+}
+
+/* Tot ce tine de tab-ul Feedback */
+
+/* Pozele din tab-ul 2/10 din setul de reguli */
+
+.pic{
+	position:absolute;
+	left:6%;
+	top:29%;
+}
+
+/* Pozele din tab-ul 2/10 din setul de reguli */
+
+/* Block-urile de text din tab-urile 2/10 */
+
+.textBlock{
+	position:absolute;
+	left:25%;
+	top:37%;
+	right:10%;
+}
+
+.textBlock1{
+	position:absolute;
+	left:25%;
+	right:10%;
+}
+
+.textBlock2{
+	position:absolute;
+	left:25%;
+	top: 27%;
+	right:10%;
+
+/* Block-urile de text din tab-urile 2/10 */
+	
